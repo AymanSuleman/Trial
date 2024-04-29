@@ -3,7 +3,8 @@ import React from 'react'
 
 // import viewscreen from './Screens/viewscreen'
 // import Imagefile  from './Screens/Imagefile'
-import Imgs from './Screens/Imgs'
+// import Imgs from './Screens/Imgs'
+import Loginform from './Screens/Loginform'
 
   
    export default function App() {
@@ -13,7 +14,9 @@ import Imgs from './Screens/Imgs'
       // </View>
       // viewscreen
     // <Imagefile/>
-    <Imgs/>
+    // <Imgs//>
+    <Loginform/>
+    
     )
   }
   

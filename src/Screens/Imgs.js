@@ -20,14 +20,14 @@ const styles= StyleSheet.create(
      img:
      {
       resizeMode:'center',
-        width: 300,
-        height: 200,
+        width: 400,
+        height: 300,
         bottom: -170,
      },
     img1:
     {
       resizeMode:'center',
-        width: 300,
+        width: 400,
         height: 200,
         bottom: -220,
     }
