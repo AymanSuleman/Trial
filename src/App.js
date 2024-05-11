@@ -4,9 +4,12 @@ import React from 'react'
 // import viewscreen from './Screens/viewscreen'
 // import Imagefile  from './Screens/Imagefile'
 // import Imgs from './Screens/Imgs'
-import Loginform from './Screens/Loginform'
+// import Loginform from './Screens/Loginform'
+// import Login2 from './Screens/Login2'
+// import Checkin from './Screens/Checkin'
+  // import Random from './Screens/Random';
+  import flist from './Screens/flist';
 
-  
    export default function App() {
     return (
       // <View>
@@ -15,8 +18,11 @@ import Loginform from './Screens/Loginform'
       // viewscreen
     // <Imagefile/>
     // <Imgs//>
-    <Loginform/>
-    
-    )
+    // <Loginform/>
+    // <Login2/>
+    // <Checkin/>
+    //  < Random/>
+    <flist/>
+    );
   }
   

@@ -21,11 +21,11 @@ const Loginform = () => {
       <View style={styles.formcontainer}>
 
            <Text style={styles.label}>Password </Text>
-           <TextInput  placeholder='Enter Password '  style={styles.input}></TextInput>
+           <TextInput   placeholder='Enter Password '  style={styles.input}></TextInput>
 
       </View>
       <View>
-      <TouchableOpacity onPress= {() => {alert('Forgot Clicked')}}>
+      <TouchableOpacity  href='forgetpass.js' onPress= {() => {alert('Forgot Clicked')}}>
 
          <Text style={styles.forget}>Forget Password?</Text>
       </TouchableOpacity>
@@ -107,6 +107,7 @@ const styles= StyleSheet.create({
         marginTop: 44,
         borderRadius: 12,
         marginHorizontal:50,
+        
         
     },
     btnText: {
