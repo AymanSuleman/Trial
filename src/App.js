@@ -8,7 +8,7 @@ import React from 'react'
 // import Login2 from './Screens/Login2'
 // import Checkin from './Screens/Checkin'
   // import Random from './Screens/Random';
-  import flist from './Screens/flist';
+  import Fletlist from './Screens/Fletlist';
 
    export default function App() {
     return (
@@ -22,7 +22,7 @@ import React from 'react'
     // <Login2/>
     // <Checkin/>
     //  < Random/>
-    <flist/>
+    <Fletlist/>
     );
   }
   
