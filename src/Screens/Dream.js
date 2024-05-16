@@ -9,7 +9,7 @@ const Dream = () => {
         {
             id: 1,
             title: 'Desert Safari Abu Dhabi',
-            image: source = require('./Images/desert.jpg'),
+            image: require('./Images/desert.jpg'),
             // imageUrl:'./Images/desert.jpg',
         },
 
@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
         borderRadius: 100,
         width: '10%',
         height: '5%',
-        marginLeft: 330,
+        marginLeft: 355,
     },
     headertext:
     {
@@ -130,7 +130,7 @@ const styles = StyleSheet.create({
         marginHorizontal: 20,
         color: 'black',
         fontSize: 32,
-        marginBottom: -10,
+        marginBottom: -35,
         fontWeight: '800',
 
     },
