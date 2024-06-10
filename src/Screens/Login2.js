@@ -1,7 +1,7 @@
 import { View, Text, SafeAreaView,StyleSheet, TextInput, TouchableOpacity, Alert } from 'react-native'
 import React from 'react'
 
-const Login2 = () => {
+const Login2 = (navigation) => {
   return (
     <SafeAreaView style={styles.container} >
       <Text style={styles.headtext}>Coursera</Text>

@@ -41,9 +41,10 @@ const Dream = () => {
     ];
 
 
-    const Item = ({ title }) => {
+    const Item = ({ title,image }) => {
         return (
             <View style={styles.item}>
+                <Image source={image} style={styles.img} />
                 <Text style={styles.title}>{title}</Text>
             </View>
         )
@@ -62,7 +63,7 @@ const Dream = () => {
 
                 <FlatList horizontal={true} showsHorizontalScrollIndicator={false}
                     data={Data}
-                    renderItem={({ item }) => <Item title={item.title} />}
+                    renderItem={({ item }) => <Item title={item.title}  image={item.image}/>}
                     keyExtractor={item => item.id} />
 
                 <Text style={styles.text2}>Favorite Spots</Text>
@@ -107,14 +108,14 @@ const styles = StyleSheet.create({
     item:
     {
         marginTop: 30,
-        backgroundColor: 'pink',
+        // backgroundColor: 'pink',
         padding: 20,
         marginVertical: 8,
         marginHorizontal: 18,
         borderRadius: 30,
         height: 350,
         width: 230,
-        elevation: 7,
+        // elevation: 7,
     },
     title:
     {
@@ -152,5 +153,17 @@ const styles = StyleSheet.create({
         marginLeft:150,
         
     },
+    img:
+    {
+        marginTop: -30,
+        // backgroundColor: 'pink',
+        padding: 20,
+        marginVertical: 8,
+        marginHorizontal: 18,
+        borderRadius: 30,
+        height: 350,
+        width: 230,
+        elevation: 7,
+    }
 })
 export default Dream
